@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235, 255, 155);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+
+.container {
+  width: 500px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  color: rgb(11, 162, 66);
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input {
+  width: 48%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+}
+
+button {
+  width: 30%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";  
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(9, 117, 9);
+  color: white;
+  margin: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#bmi-value {
+  color: rgb(2, 155, 89);
+}
+
+#bmi-status {
+  color: rgb(211, 67, 19);
+}
